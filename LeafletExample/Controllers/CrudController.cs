@@ -14,11 +14,11 @@ namespace LeafletExample.Controllers
 
       
         // GET: api/<CrudController>
-        [HttpGet]
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
+        //[HttpGet]
+        //public IEnumerable<string> Get()
+        //{
+        //    return new string[] { "value1", "value2" };
+        //}
 
         // GET api/<CrudController>/5
         [HttpGet("{id}")]
@@ -44,10 +44,10 @@ namespace LeafletExample.Controllers
         }
 
         // DELETE api/<CrudController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+        //[HttpDelete("{id}")]
+        //public void Delete(int id)
+        //{
 
-        }
+        //}
     }
 }
